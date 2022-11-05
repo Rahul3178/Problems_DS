@@ -1,3 +1,5 @@
+package LeetCode;
+
 import java.util.Scanner;
 
 public class FindSortedArray_P34
@@ -12,28 +14,32 @@ public class FindSortedArray_P34
             result[1]=0;
             return result;
         }
-        int z=binarySearch(nums,0, nums.length-1,target);
-        System.out.println("Binary Result: "+z);
+
+        System.out.println("Binary Result: "+binarySearch(nums,0, nums.length,target));
      return result;
     }
-    private static  int binarySearch(int[]nums,int lw,int up,int target)
+    // Binary Search iterative approachyes
+    public static int binarySearch(int arr[], int l, int u, int target)
     {
+        if(l<=u)
+        {
+            int mid=l+u/2;
 
-
-            int mid= lw+(up-lw)/2;
-           // int mid = lw + up / 2;
-
-            if (nums[mid] == target) {
-                System.out.println("mid"+mid);
+            if(arr[mid]==target)
+            {
+                System.out.print("Mid Value: "+mid);
                 return mid;
+
+            }
+            if(arr[mid]<target)
+            {
+                binarySearch(arr,mid,u,target);
+            }
+            if(arr[mid]>target){
+                binarySearch(arr,0,mid-1,target);
             }
 
-            if (target < nums[mid]) {
-                binarySearch(nums, lw, mid - 1, target);
-            } else {
-                binarySearch(nums, mid + 1, up, target);
-            }
-
+        }
         return -1;
     }
     public static void main(String[] args)
