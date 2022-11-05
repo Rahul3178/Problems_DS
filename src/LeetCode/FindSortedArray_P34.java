@@ -6,47 +6,60 @@ public class FindSortedArray_P34
 {
     public static int[] searchRange(int[] nums, int target)
     {
-        int result[]={-1,-1};
-        if(nums.length==0 || nums.length==1)
-        {
+        int result[]=new int[2];
+        result[0]=findFirstIndex(nums,target);
+        result[1]=findLastIndex(nums,target);
 
-            result[0]=0;
-            result[1]=0;
-            return result;
-        }
-
-        System.out.println("Binary Result: "+binarySearch(nums,0, nums.length,target));
      return result;
     }
-    // Binary Search iterative approachyes
-    public static int binarySearch(int arr[], int l, int u, int target)
+
+    private static int findLastIndex(int[] nums, int target)
     {
-        if(l<=u)
+        int l=0,h= nums.length-1;
+        int idx=-1;
+        while(l<=h)
         {
-            int mid=l+u/2;
-
-            if(arr[mid]==target)
+            int mid=l+(h-l)/2;
+            if(nums[mid]==target)
             {
-                System.out.print("Mid Value: "+mid);
-                return mid;
-
+                idx=mid;
             }
-            if(arr[mid]<target)
+            if(target>=nums[mid])
             {
-                binarySearch(arr,mid,u,target);
+                l=mid+1;
+            }else {
+                h=mid-1;
             }
-            if(arr[mid]>target){
-                binarySearch(arr,0,mid-1,target);
-            }
-
         }
-        return -1;
+        return idx;
     }
+
+    private static int findFirstIndex(int[] nums, int target) {
+        int l=0,h= nums.length-1;
+        int idx=-1;
+        while(l<=h)
+        {
+            int mid=l+(h-l)/2;
+            if(nums[mid]==target)
+            {
+                idx=mid;
+            }
+            if(target>nums[mid]){
+                l=mid+1;
+            }
+            else{
+                h=mid-1;
+            }
+        }
+        return idx;
+    }
+    // Binary Search recursive approachyes
+
     public static void main(String[] args)
     {
         Scanner sc= new Scanner(System.in);
-        int[] num={0,1,2,3,4,5,6,7};
-        int t=4;
+        int[] num={5,7,7,8,8,10};
+        int t=8;
         int[] z=searchRange(num,t);
         System.out.println("Result is: ");
         for(int y:z)
@@ -55,3 +68,4 @@ public class FindSortedArray_P34
         }
     }
 }
+// Not working in nall scenario; hence rejected;

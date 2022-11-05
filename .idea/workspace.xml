@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="Problems solved Leetcode">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="two searing way rejejct first fmatch element util got last element &gt;= approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayConcatination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ArrayConcatination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ArrayPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySufflingP_1470.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ArraySufflingP_1470.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindSortedArray_P34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/FindSortedArray_P34.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/NumReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/RemoveFromArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoDArraay_1672.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/TwoDArraay_1672.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/stringPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DebuggingLeetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/FindSortedArray_P34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/FindSortedArray_P34.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +25,14 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d4b9f249-4c99-4b31-a1f3-af01189880ef" />
+        <option name="url" value="https://github.com/Rahul3178/Problems_DS.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/LeetCode/NumReverse.java" root0="FORCE_HIGHLIGHTING" />
@@ -145,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667621619860</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Binary search approach">
+      <created>1667624438100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667624438100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Basic approach">
+      <created>1667624508425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667624508425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,7 +170,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Problems solved Leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problems solved Leetcode" />
+    <MESSAGE value="Binary search approach" />
+    <MESSAGE value="Basic approach" />
+    <MESSAGE value="NOt working issue with when target starting point and end point are same. hence rejected" />
+    <MESSAGE value="two searing way rejejct first fmatch element util got last element &gt;= approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="two searing way rejejct first fmatch element util got last element &gt;= approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -188,8 +201,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCode/FindSortedArray_P34.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="17" />
+          <line>42</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LeetCode/stringPalindrome.java</url>
