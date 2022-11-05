@@ -1,17 +1,22 @@
+package LeetCode;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ArrayConcatination
+public class ArraySufflingP_1470
 {
-    public static int[] getConcatenation(int[] nums)
+    public static int[] shuffle(int[] nums, int n)
     {
-        int newArray []= new int[nums.length*2];
-        for (int i=0;i< nums.length;i++)
+        int newArray[]= new int[nums.length];
+        int k=0;
+         for(int i=0,j=n;i<n || j<=nums.length-1;)
         {
-            newArray[i]=nums[i];
-            newArray[i+ nums.length]=nums[i];
-
+            newArray[k]=nums[i];
+            newArray[++k]=nums[j];
+            i++;
+            j++;
+            k++;
         }
         return newArray;
     }
@@ -19,8 +24,9 @@ public class ArrayConcatination
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int[] x={0,2,1,5,3,4};
-        int[] z=getConcatenation(x);
+        int[] x={2,5,1,3,4,7};
+        int n=3;
+        int[] z=shuffle(x,n);
         System.out.println("Result is: ");
         for(int y:z)
         {

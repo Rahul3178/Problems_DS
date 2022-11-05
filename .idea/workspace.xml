@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayConcatination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraySufflingP_1470.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FindSortedArray_P34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RemoveFromArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoDArraay_1672.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stringPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="Problems solved Leetcode">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayConcatination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ArrayConcatination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ArrayPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySufflingP_1470.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ArraySufflingP_1470.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindSortedArray_P34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/FindSortedArray_P34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/NumReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RemoveFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/RemoveFromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoDArraay_1672.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/TwoDArraay_1672.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/stringPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DebuggingLeetcode.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +31,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/NumReverse.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/stringPalindrome.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LeetCode/NumReverse.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LeetCode/stringPalindrome.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,37 +65,56 @@
   }
 }</component>
   <component name="RunManager" selected="Application.FindSortedArray_P34">
-    <configuration name="ArrayConcatination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayConcatination" />
-      <module name="untitled" />
+    <configuration name="ArraySufflingP_1470" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ArraySufflingP_1470" />
+      <module name="DebuggingLeetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySufflingP_1470" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySufflingP_1470" />
-      <module name="untitled" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.BinarySearch" />
+      <module name="DebuggingLeetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FindSortedArray_P34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindSortedArray_P34" />
-      <module name="untitled" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.FindSortedArray_P34" />
+      <module name="DebuggingLeetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="untitled" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Test" />
+      <module name="DebuggingLeetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TwoDArraay_1672" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoDArraay_1672" />
-      <module name="untitled" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.TwoDArraay_1672" />
+      <module name="DebuggingLeetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DebuggingLeetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DebuggingLeetcode" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,10 +122,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FindSortedArray_P34" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.TwoDArraay_1672" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ArraySufflingP_1470" />
-        <item itemvalue="Application.ArrayConcatination" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +138,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667121811538</updated>
     </task>
+    <task id="LOCAL-00001" summary="Problems solved Leetcode">
+      <created>1667621619860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667621619860</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,46 +159,46 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Problems solved Leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problems solved Leetcode" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RomanToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/LeetCode/RomanToInteger.java</url>
           <line>13</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/stringPalindrome.java</url>
+          <url>file://$PROJECT_DIR$/src/LeetCode/stringPalindrome.java</url>
           <line>15</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RemoveFromArray.java</url>
+          <url>file://$PROJECT_DIR$/src/LeetCode/RemoveFromArray.java</url>
           <line>17</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ArraySufflingP_1470.java</url>
+          <url>file://$PROJECT_DIR$/src/LeetCode/ArraySufflingP_1470.java</url>
           <line>10</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/FindSortedArray_P34.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/stringPalindrome.java</url>
+          <url>file://$PROJECT_DIR$/src/LeetCode/stringPalindrome.java</url>
           <line>8</line>
-          <properties class="stringPalindrome" method="isPalindrome">
+          <properties class="LeetCode.stringPalindrome">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/FindSortedArray_P34.java</url>
-          <line>18</line>
-          <properties class="FindSortedArray_P34" method="binarySearch">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
@@ -181,5 +210,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/untitled$FindSortedArray_P34.ic" NAME="FindSortedArray_P34 Coverage Results" MODIFIED="1667623564217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
