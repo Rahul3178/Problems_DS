@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="two searing way rejejct first fmatch element util got last element &gt;= approach">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array_P1652.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Sliding_Window_Technique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Sliding_Window_native_approach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/FindSortedArray_P34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/FindSortedArray_P34.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +61,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindSortedArray_P34">
-    <configuration name="ArraySufflingP_1470" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ArraySufflingP_1470" />
+  <component name="RunManager" selected="Application.Sliding_Window_Technique">
+    <configuration name="Array_P1652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Array_P1652" />
       <module name="DebuggingLeetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,40 +95,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Test" />
+    <configuration name="Sliding_Window_Technique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Sliding_Window_Technique" />
       <module name="DebuggingLeetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDArraay_1672" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.TwoDArraay_1672" />
+    <configuration name="Sliding_Window_native_approach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Sliding_Window_native_approach" />
       <module name="DebuggingLeetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="DebuggingLeetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="DebuggingLeetcode" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sliding_Window_Technique" />
+        <item itemvalue="Application.Sliding_Window_native_approach" />
+        <item itemvalue="Application.Array_P1652" />
         <item itemvalue="Application.FindSortedArray_P34" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.TwoDArraay_1672" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ArraySufflingP_1470" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667624508425</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="two searing way rejejct first fmatch element util got last element &gt;= approach">
+      <created>1667632952509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667632952509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +217,11 @@
           <url>file://$PROJECT_DIR$/src/LeetCode/FindSortedArray_P34.java</url>
           <line>42</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/Sliding_Window_native_approach.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LeetCode/stringPalindrome.java</url>
