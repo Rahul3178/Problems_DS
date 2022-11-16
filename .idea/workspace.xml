@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="Example with lambda expression">
+    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="method reference with static method of main class">
+      <change afterPath="$PROJECT_DIR$/src/featuresLearning/methodReferenceEx2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuresLearning/methodReferenceEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuresLearning/methodReferenceEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.methodReferenceEx">
+  <component name="RunManager" selected="Application.methodReferenceEx2">
     <configuration name="ConsumerInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="featuresLearning.ConsumerInterface" />
       <module name="DebuggingLeetcode" />
@@ -118,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="predicateInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="featuresLearning.predicateInterface" />
+    <configuration name="methodReferenceEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="featuresLearning.methodReferenceEx2" />
       <module name="DebuggingLeetcode" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.methodReferenceEx2" />
         <item itemvalue="Application.methodReferenceEx" />
         <item itemvalue="Application.ConsumerInterface" />
         <item itemvalue="Application.FunctionInterface" />
         <item itemvalue="Application.PredicateJoining" />
-        <item itemvalue="Application.predicateInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668593098091</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="method reference with static method of main class">
+      <created>1668593342304</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668593342304</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +325,8 @@
     <MESSAGE value="for consumer interface return type alwasy void its only consumes value input value" />
     <MESSAGE value="IntConsumer helps in optimization it removes auto boxing and auto unboxing concept, we have many function like this" />
     <MESSAGE value="Example with lambda expression" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example with lambda expression" />
+    <MESSAGE value="method reference with static method of main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="method reference with static method of main class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
