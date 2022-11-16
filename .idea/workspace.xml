@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="default and static methods inside interface">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P_1365_SmallerThanCurrentNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P_1480_RunningSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P_1512_NumbersOfGoodPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P_2011_Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P_2114_Maximum_word_Count.java" afterDir="false" />
+    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="New problems solved">
+      <change afterPath="$PROJECT_DIR$/src/featuresLearning/PredicateJoining.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuresLearning/predicateInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuresLearning/predicateInterface.java" afterDir="false" />
     </list>
@@ -72,9 +66,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.predicateInterface">
+  <component name="RunManager" selected="Application.PredicateJoining">
     <configuration name="InterfaceStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="featuresLearning.InterfaceStaticMethod" />
+      <module name="DebuggingLeetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="featuresLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicateJoining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="featuresLearning.PredicateJoining" />
       <module name="DebuggingLeetcode" />
       <extension name="coverage">
         <pattern>
@@ -125,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threadRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="featuresLearning.threadRunnable" />
-      <module name="DebuggingLeetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="featuresLearning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredicateJoining" />
         <item itemvalue="Application.predicateInterface" />
         <item itemvalue="Application.newLeft" />
         <item itemvalue="Application.InterfaceStaticMethod" />
         <item itemvalue="Application.interfacedefaultmethods" />
-        <item itemvalue="Application.threadRunnable" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668586854300</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="we know predicate is a functional interface so we can use lambda expression">
+      <created>1668587186081</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668587186081</updated>
+    </task>
+    <task id="LOCAL-00014" summary="New problems solved">
+      <created>1668587216534</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668587216534</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +277,9 @@
     <MESSAGE value="Using lambda expression" />
     <MESSAGE value="predicaete interface is functional interface with a test() abstract method which return only boolean values.&#10;part of java.util.function package" />
     <MESSAGE value="default and static methods inside interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="default and static methods inside interface" />
+    <MESSAGE value="we know predicate is a functional interface so we can use lambda expression" />
+    <MESSAGE value="New problems solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="New problems solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
