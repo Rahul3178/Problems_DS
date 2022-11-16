@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="for consumer interface return type alwasy void its only consumes value input value">
-      <change beforePath="$PROJECT_DIR$/src/featuresLearning/ConsumerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuresLearning/ConsumerInterface.java" afterDir="false" />
+    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="IntConsumer helps in optimization it removes auto boxing and auto unboxing concept, we have many function like this">
+      <change afterPath="$PROJECT_DIR$/src/featuresLearning/methodReferenceEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConsumerInterface">
+  <component name="RunManager" selected="Application.methodReferenceEx">
     <configuration name="ConsumerInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="featuresLearning.ConsumerInterface" />
       <module name="DebuggingLeetcode" />
@@ -104,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="newLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="featuresLearning.newLeft" />
+    <configuration name="methodReferenceEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="featuresLearning.methodReferenceEx" />
       <module name="DebuggingLeetcode" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.methodReferenceEx" />
         <item itemvalue="Application.ConsumerInterface" />
         <item itemvalue="Application.FunctionInterface" />
         <item itemvalue="Application.PredicateJoining" />
         <item itemvalue="Application.predicateInterface" />
-        <item itemvalue="Application.newLeft" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668592190950</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="IntConsumer helps in optimization it removes auto boxing and auto unboxing concept, we have many function like this">
+      <created>1668592341900</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668592341900</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +308,8 @@
     <MESSAGE value="ALL  Predicate function/ methods are join into a single programme" />
     <MESSAGE value="Function interface with all 3  methods apply() abstract method,&#10;andThen(),compose-&gt; reverse of andThen" />
     <MESSAGE value="for consumer interface return type alwasy void its only consumes value input value" />
-    <option name="LAST_COMMIT_MESSAGE" value="for consumer interface return type alwasy void its only consumes value input value" />
+    <MESSAGE value="IntConsumer helps in optimization it removes auto boxing and auto unboxing concept, we have many function like this" />
+    <option name="LAST_COMMIT_MESSAGE" value="IntConsumer helps in optimization it removes auto boxing and auto unboxing concept, we have many function like this" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
