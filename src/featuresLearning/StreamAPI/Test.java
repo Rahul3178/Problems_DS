@@ -23,6 +23,8 @@ package featuresLearning.StreamAPI;
 * */
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Test
 {
@@ -35,7 +37,7 @@ public class Test
         }
         System.out.println(i1);
         // this is with out  steam method
-        ArrayList<Integer>i2= new ArrayList<>();
+        /*ArrayList<Integer>i2= new ArrayList<>();
         for(Integer i:i1)
         {
             if (i%2==0)
@@ -43,6 +45,9 @@ public class Test
                 i2.add(i);
             }
         }
-        System.out.println(i2);
+        System.out.println(i2);*/
+
+        List<Integer> l1=i1.stream().filter(i->i%2==0).collect(Collectors.toList());
+        System.out.println(l1);
     }
 }
