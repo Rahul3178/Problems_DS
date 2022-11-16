@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="two searing way rejejct first fmatch element util got last element &gt;= approach">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array_P1652.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Sliding_Window_Technique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Sliding_Window_native_approach.java" afterDir="false" />
+    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="default and static methods inside interface">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/P_1365_SmallerThanCurrentNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/P_1480_RunningSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/P_1512_NumbersOfGoodPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/P_2011_Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/P_2114_Maximum_word_Count.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/featuresLearning/predicateInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuresLearning/predicateInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +51,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2Gqh2Eos3pGu5QHozq9TVqAwNNs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,13 +72,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Sliding_Window_Technique">
-    <configuration name="Array_P1652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Array_P1652" />
+  <component name="RunManager" selected="Application.predicateInterface">
+    <configuration name="InterfaceStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="featuresLearning.InterfaceStaticMethod" />
       <module name="DebuggingLeetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="featuresLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.BinarySearch" />
+    <configuration name="interfacedefaultmethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="featuresLearning.interfacedefaultmethods" />
       <module name="DebuggingLeetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="featuresLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,19 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSortedArray_P34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.FindSortedArray_P34" />
-      <module name="DebuggingLeetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sliding_Window_Technique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Sliding_Window_Technique" />
+    <configuration name="newLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="featuresLearning.newLeft" />
       <module name="DebuggingLeetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="featuresLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +112,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sliding_Window_native_approach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Sliding_Window_native_approach" />
+    <configuration name="predicateInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="featuresLearning.predicateInterface" />
       <module name="DebuggingLeetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="featuresLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="threadRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="featuresLearning.threadRunnable" />
+      <module name="DebuggingLeetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="featuresLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sliding_Window_Technique" />
-        <item itemvalue="Application.Sliding_Window_native_approach" />
-        <item itemvalue="Application.Array_P1652" />
-        <item itemvalue="Application.FindSortedArray_P34" />
-        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.predicateInterface" />
+        <item itemvalue="Application.newLeft" />
+        <item itemvalue="Application.InterfaceStaticMethod" />
+        <item itemvalue="Application.interfacedefaultmethods" />
+        <item itemvalue="Application.threadRunnable" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +185,63 @@
       <option name="project" value="LOCAL" />
       <updated>1667632952509</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sliding Window basic things done.">
+      <created>1667733329889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667733329889</updated>
+    </task>
+    <task id="LOCAL-00006" summary="this is without lambda expression using single abstract method (functional interfface)">
+      <created>1668580911802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668580911802</updated>
+    </task>
+    <task id="LOCAL-00007" summary="we dont need any class whic implements functional; interface we use referensce of functional interface to use lambda expression.">
+      <created>1668581116482</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668581116482</updated>
+    </task>
+    <task id="LOCAL-00008" summary="use lambda expression as arugument to iteraete inside a array list">
+      <created>1668581577768</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668581577768</updated>
+    </task>
+    <task id="LOCAL-00009" summary="without lambda expression Runnable is functional interface by defaut bcz its have only one abstract method">
+      <created>1668582175430</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668582175430</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Using lambda expression">
+      <created>1668582268784</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668582268784</updated>
+    </task>
+    <task id="LOCAL-00011" summary="predicaete interface is functional interface with a test() abstract method which return only boolean values.&#10;part of java.util.function package">
+      <created>1668586814785</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668586814785</updated>
+    </task>
+    <task id="LOCAL-00012" summary="default and static methods inside interface">
+      <created>1668586854300</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668586854300</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,7 +261,15 @@
     <MESSAGE value="Basic approach" />
     <MESSAGE value="NOt working issue with when target starting point and end point are same. hence rejected" />
     <MESSAGE value="two searing way rejejct first fmatch element util got last element &gt;= approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="two searing way rejejct first fmatch element util got last element &gt;= approach" />
+    <MESSAGE value="Sliding Window basic things done." />
+    <MESSAGE value="this is without lambda expression using single abstract method (functional interfface)" />
+    <MESSAGE value="we dont need any class whic implements functional; interface we use referensce of functional interface to use lambda expression." />
+    <MESSAGE value="use lambda expression as arugument to iteraete inside a array list" />
+    <MESSAGE value="without lambda expression Runnable is functional interface by defaut bcz its have only one abstract method" />
+    <MESSAGE value="Using lambda expression" />
+    <MESSAGE value="predicaete interface is functional interface with a test() abstract method which return only boolean values.&#10;part of java.util.function package" />
+    <MESSAGE value="default and static methods inside interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="default and static methods inside interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
