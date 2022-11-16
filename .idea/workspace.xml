@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="IntConsumer helps in optimization it removes auto boxing and auto unboxing concept, we have many function like this">
-      <change afterPath="$PROJECT_DIR$/src/featuresLearning/methodReferenceEx.java" afterDir="false" />
+    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="Example with lambda expression">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/featuresLearning/methodReferenceEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuresLearning/methodReferenceEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668592341900</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Example with lambda expression">
+      <created>1668593098091</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668593098091</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,7 +317,8 @@
     <MESSAGE value="Function interface with all 3  methods apply() abstract method,&#10;andThen(),compose-&gt; reverse of andThen" />
     <MESSAGE value="for consumer interface return type alwasy void its only consumes value input value" />
     <MESSAGE value="IntConsumer helps in optimization it removes auto boxing and auto unboxing concept, we have many function like this" />
-    <option name="LAST_COMMIT_MESSAGE" value="IntConsumer helps in optimization it removes auto boxing and auto unboxing concept, we have many function like this" />
+    <MESSAGE value="Example with lambda expression" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example with lambda expression" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
