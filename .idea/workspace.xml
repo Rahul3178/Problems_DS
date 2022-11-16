@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="New problems solved">
-      <change afterPath="$PROJECT_DIR$/src/featuresLearning/PredicateJoining.java" afterDir="false" />
+    <list default="true" id="33a9558f-5214-4042-bbca-da8b1fd22e93" name="Changes" comment="ALL  Predicate function/ methods are join into a single programme">
+      <change afterPath="$PROJECT_DIR$/src/featuresLearning/FunctionInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuresLearning/predicateInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuresLearning/predicateInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PredicateJoining">
+  <component name="RunManager" selected="Application.FunctionInterface">
+    <configuration name="FunctionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="featuresLearning.FunctionInterface" />
+      <module name="DebuggingLeetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="featuresLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InterfaceStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="featuresLearning.InterfaceStaticMethod" />
       <module name="DebuggingLeetcode" />
@@ -82,19 +94,6 @@
     </configuration>
     <configuration name="PredicateJoining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="featuresLearning.PredicateJoining" />
-      <module name="DebuggingLeetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="featuresLearning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="interfacedefaultmethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="featuresLearning.interfacedefaultmethods" />
       <module name="DebuggingLeetcode" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionInterface" />
         <item itemvalue="Application.PredicateJoining" />
         <item itemvalue="Application.predicateInterface" />
         <item itemvalue="Application.newLeft" />
         <item itemvalue="Application.InterfaceStaticMethod" />
-        <item itemvalue="Application.interfacedefaultmethods" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668587216534</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ALL  Predicate function/ methods are join into a single programme">
+      <created>1668588444548</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668588444554</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +285,8 @@
     <MESSAGE value="default and static methods inside interface" />
     <MESSAGE value="we know predicate is a functional interface so we can use lambda expression" />
     <MESSAGE value="New problems solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="New problems solved" />
+    <MESSAGE value="ALL  Predicate function/ methods are join into a single programme" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALL  Predicate function/ methods are join into a single programme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
